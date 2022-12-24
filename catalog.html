@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Catalog</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="container">
+        <header class="header">
+            <div class="header__logo"><a href="index.html">Logo</a></div>
+
+            <nav class="header__nav">
+                <a href="index.html">О компании</a>
+                <a href="catalog.html">Каталог запчастей</a>
+                <a href="services.html">Автосервис</a>
+                <a href="news.html">Новости и акции</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+
+            <div class="header__contact">
+                <span>+7 777 333 22 11</span>
+                <a href="tel:87773332211">Закзать звонок</a>
+            </div>
+            <!-- Burger -->
+            <nav class="navbar">
+                <div class="navbar__wrap">
+                    <div class="hamb">
+                        <div class="hamb__field" id="hamb">
+                            <span class="bar" id="bar"></span>
+                            <span class="bar" id="bar2"></span>
+                            <span class="bar" id="bar3"></span>
+                        </div>
+                    </div>
+                    <div class="menu" id="menu">
+                        <ul class="special">
+                            <li><a class="nav__list__link" href="index.html">О компании</a></li>
+                            <li><a class="nav__list__link" href="catalog.html">Каталог запчастей</a></li>
+                            <li><a class="nav__list__link" href="services.html">Автосервис</a>
+                            </li>
+                            <li><a class="nav__list__link" href="news.html">Новости и акции</a>
+                            </li>
+                            <li><a class="nav__list__link" href="contacts.html">Контакты</a>
+                            </li>
+                            <li><a class="nav__list__link" href="tel:87773332211">+7 777 333 22 11</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="popup" id="popup"></div>
+    </div> <!-- </ Header -->
+
+    <!-- Search -->
+    <div class="search search--active">
+        <form action="/" class="search__form">
+            <input class="search__input" type="text" name="search" placeholder="поиск по VIN">
+            <button class="search__btn" type="submit">
+                <img src="./img/Search.svg" alt="search">
+            </button>
+        </form>
+    </div>
+
+    <footer class="footer header">
+        <div class="header__logo">Logo</div>
+
+        <nav class="header__nav">
+            <a href="index.html">О компании</a>
+            <a href="catalog.html">Каталог запчастей</a>
+            <a href="services.html">Автосервис</a>
+            <a href="news.html">Новости и акции</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+
+        <div class="header__contact">
+            <span>+7 777 333 22 11</span>
+            <a href="tel:87773332211">Закзать звонок</a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
